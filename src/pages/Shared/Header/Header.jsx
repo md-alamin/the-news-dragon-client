@@ -11,7 +11,9 @@ const Header = () => {
 	return (
 		<Container className="mb-4">
 			<div className="text-center mt-5">
-				<img src={logo} alt="" />
+				<Link to="/">
+					<img src={logo} alt="" />
+				</Link>
 				<p className="text-secondary">
 					<small>Journalism Without Fear Or Favor</small>
 				</p>
